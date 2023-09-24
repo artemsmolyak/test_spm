@@ -8,9 +8,9 @@ let package = Package(name: "test_spm",
                       platforms: [.iOS(.v11)],
                       products: [
                         .library(name: "test_spm",
-                                targets: ["Highcharts"])
+                                 targets: ["test_spm"])
                       ],
                       targets: [.binaryTarget(name: "test_spm",
                                               path: "test_spm.xcframework")]
-                    )
+)
 )
