@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9A82F1212ABACC8D00040ED6 /* test_spm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A82F1162ABACC8D00040ED6 /* test_spm.framework */; };
-		9A82F1D72ABCF20100040ED6 /* Package.swift in Resources */ = {isa = PBXBuildFile; fileRef = 9A82F14C2ABCCBF600040ED6 /* Package.swift */; };
 		9AF0CE882AC0A0500082F695 /* test_framework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF0CE872AC0A0500082F695 /* test_framework.xcframework */; };
 /* End PBXBuildFile section */
 
@@ -162,7 +161,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A82F1D72ABCF20100040ED6 /* Package.swift in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +378,6 @@
 		9A82F12E2ABACC8D00040ED6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -396,7 +393,6 @@
 		9A82F12F2ABACC8D00040ED6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
