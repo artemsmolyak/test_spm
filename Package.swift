@@ -9,4 +9,4 @@ let package = Package(name: "test_spm",
                       products: [.library(name: "test_spm",
                                           targets: ["test_spm"])],
                       targets: [.binaryTarget(name: "test_spm",
-                                              path: "test_spm.xcframework")])
+                                              path: "test_framework.xcframework")])
