@@ -4,9 +4,9 @@
 
 import PackageDescription
 
-let package = Package(name: "test_spm",
+let package = Package(name: "test_framework",
                       platforms: [.iOS(.v11)],
-                      products: [.library(name: "test_spm",
-                                          targets: ["test_spm"])],
-                      targets: [.binaryTarget(name: "test_spm",
-                                              path: "test_spm.xcframework")])
+                      products: [.library(name: "test_framework",
+                                          targets: ["test_framework"])],
+                      targets: [.binaryTarget(name: "test_framework",
+                                              path: "test_framework.xcframework")])
