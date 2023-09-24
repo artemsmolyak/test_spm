@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/test.h</key>
+		<data>
+		/8qtwbyIyWeqMvz8mzI9KgOWoJc=
+		</data>
 		<key>Headers/test_framework.h</key>
 		<data>
 		Os4DdhReOteVJn2CSDnTEFKt8hU=
@@ -19,6 +23,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/test.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oLhdAWA86GnEqgyEeFE4Qs8Mr3Y1QgJsItjnjhuPiIc=
+			</data>
+		</dict>
 		<key>Headers/test_framework.h</key>
 		<dict>
 			<key>hash2</key>
