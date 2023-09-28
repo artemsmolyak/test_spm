@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
 
 /// Интерфейс обертки работы с токеном.
-@interface MyClass: NSObject
+@interface MyClass2: NSObject
 
 -(instancetype) init NS_UNAVAILABLE;
  
