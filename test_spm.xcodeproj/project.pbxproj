@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		9A82F1212ABACC8D00040ED6 /* test_spm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A82F1162ABACC8D00040ED6 /* test_spm.framework */; };
 		9AF0CE882AC0A0500082F695 /* test_framework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF0CE872AC0A0500082F695 /* test_framework.xcframework */; };
-		9AF0CEB62AC5FD090082F695 /* test_framework2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF0CEB52AC5FD090082F695 /* test_framework2.framework */; };
+		9AF0CEBF2AC60EEA0082F695 /* test_framework2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF0CEBE2AC60EEA0082F695 /* test_framework2.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +27,7 @@
 		9A82F1202ABACC8D00040ED6 /* test_spmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_spmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A82F14C2ABCCBF600040ED6 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		9AF0CE872AC0A0500082F695 /* test_framework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = test_framework.xcframework; sourceTree = "<group>"; };
-		9AF0CEB52AC5FD090082F695 /* test_framework2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = test_framework2.framework; sourceTree = "<group>"; };
+		9AF0CEBE2AC60EEA0082F695 /* test_framework2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = test_framework2.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,8 +35,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AF0CEB62AC5FD090082F695 /* test_framework2.framework in Frameworks */,
 				9AF0CE882AC0A0500082F695 /* test_framework.xcframework in Frameworks */,
+				9AF0CEBF2AC60EEA0082F695 /* test_framework2.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +56,7 @@
 			children = (
 				9A82F14C2ABCCBF600040ED6 /* Package.swift */,
 				9AF0CE872AC0A0500082F695 /* test_framework.xcframework */,
-				9AF0CEB52AC5FD090082F695 /* test_framework2.framework */,
+				9AF0CEBE2AC60EEA0082F695 /* test_framework2.xcframework */,
 				9A82F1172ABACC8D00040ED6 /* Products */,
 			);
 			sourceTree = "<group>";
